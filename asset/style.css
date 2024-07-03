@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 96vh;
+    position: relative;
+    background-image: url("../img/dirt-road-middle-forest-trees-sunny-day.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: #bb8d33;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    color: #bb8d33;
+}
+
+h1, h2, h3 {
+    color: #bb8d33;
+    text-shadow: 5px 1px 2px black;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+/*Menu*/
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 100%;
+    background-color: #487935;
+}
+
+#menu > ul {
+    display: flex;
+}
+
+#logo {
+    width: 5vw;
+    padding: 0.8rem;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 0.2em;
+    margin-right: 6vh;
+}
+
+/*Main*/
+
+.content, .event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 70, 45);
+    padding: 0.8rem;
+    margin-bottom: 1.3vh;
+    width: 75vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.event {
+    width: 60vw;
+    font-size: 2rem;
+    margin-top: 5vh;
+}
+
+main, section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title {
+    background-color: #487935;
+    width: 50vw;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.button {
+    background-color: #487935;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    margin-top: 1vh;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #bb8d33;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.resume {
+    font-size: 1.5rem;
+}
+
+/*footer*/
+
+footer {
+    background-color: #487935;
+}
