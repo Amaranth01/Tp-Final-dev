@@ -114,6 +114,13 @@ h3 {
     font-size: 1.5rem;
 }
 
+#carouselFE, #carouselVE, #carouselCB {
+    width: 20vw;
+    margin-top: 2vh;
+    border: #bb8d33 5px solid;
+    box-shadow: black 10px 10px 12px;
+}
+
 /*footer*/
 
 footer {
