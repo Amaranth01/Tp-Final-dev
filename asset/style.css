@@ -83,7 +83,7 @@ li {
     margin-top: 5vh;
 }
 
-main, section {
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +122,7 @@ h3 {
 
 #carouselFE, #carouselVE, #carouselCB {
     width: 20vw;
-    margin-top: 2vh;
+    margin-top: 17vh;
     border: #bb8d33 5px solid;
     box-shadow: black 10px 10px 12px;
 }
@@ -139,6 +139,42 @@ table {
 
 #tarifsTitle {
     font-size: 5rem;
+}
+
+#CB {
+    background-image: url("/img/halloween.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 14vh;
+    color: #bb8d33;
+    background-color: rgb(101, 70, 45);
+    width: 40vw;
+    padding: 0.8rem;
+}
+
+#contact {
+    margin-top: 14vh;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #bb8d33;
+    background-color: rgb(101, 70, 45);
+    padding: 0.8rem;
+}
+
+label {
+    font-size: 1.8rem;
+}
+
+input{
+    width: 20vw;
+    height: 4vh;
 }
 
 /*footer*/
