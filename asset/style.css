@@ -11,6 +11,7 @@ body {
     background-image: url("../img/dirt-road-middle-forest-trees-sunny-day.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed; /* This line fixes the background image */
 }
 
 a {
@@ -35,10 +36,14 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    text-decoration: none;
     font-size: 2rem;
     width: 100%;
     background-color: #487935;
+    box-shadow: black 10px 10px 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 #menu > ul {
@@ -88,8 +93,8 @@ main, section {
 #title {
     background-color: #487935;
     width: 50vw;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
+    margin-top: 9vw;
+    margin-bottom: 1.2vw;
 }
 
 button {
@@ -99,6 +104,7 @@ button {
     padding: 0.8rem;
     border-radius: 10px;
     margin-top: 1vh;
+    width: 15vw;
 }
 
 .underline {
@@ -139,4 +145,10 @@ table {
 
 footer {
     background-color: #487935;
+    color: #bb8d33;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

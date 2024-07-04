@@ -1,0 +1,37 @@
+main {
+    background-color: rgb(101, 70, 45);
+}
+
+.parallax1, .parallax2, .parallax3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/img/dirt-road-middle-forest-trees-sunny-day.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 4vh;
+    height: 80vh;
+    font-weight: bold;
+}
+
+.parallax1 {
+    background-image: linear-gradient(rgba(187, 141, 51, 0.50),rgba(187, 141, 51, 0.50)),  url("/img/dirt-road-middle-forest-trees-sunny-day.jpg");
+}
+
+.parallax2 {
+    background-image: linear-gradient(rgba(72, 121, 53, 0.50), rgba(72, 121, 53, 0.50)), url("/img/dirt-road-middle-forest-trees-sunny-day.jpg");
+}
+
+.parallax3 {
+    background-image: url("/img/halloween.jpg");
+}
+
+.parallax1 >p , .parallax2 > p, .parallax3 > p {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
