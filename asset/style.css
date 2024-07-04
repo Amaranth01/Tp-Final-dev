@@ -92,7 +92,7 @@ main, section {
     margin-bottom: 1.2rem;
 }
 
-.button {
+button {
     background-color: #487935;
     text-align: center;
     font-size: 1.2rem;
@@ -119,6 +119,20 @@ h3 {
     margin-top: 2vh;
     border: #bb8d33 5px solid;
     box-shadow: black 10px 10px 12px;
+}
+
+table {
+    margin : 5vw auto;
+    font-size: 1.8vw;
+    text-align: center;
+    color: #bb8d33;
+    background-color: rgb(101, 70, 45);
+    border-collapse: separate;
+    border-spacing: 1vw;
+}
+
+#tarifsTitle {
+    font-size: 5rem;
 }
 
 /*footer*/

@@ -13,7 +13,7 @@ imgCB.src = pictureCB[0];
 const moveRight = () => {
     if (positionCB >= pictureCB.length - 1) {
         positionCB = 0
-        imgCB.src = pictureVE[positionCB];
+        imgCB.src = pictureCB[positionCB];
         return;
     }
     imgCB.src = pictureCB[positionCB + 1];
